@@ -1,0 +1,15 @@
+
+1.
+git reset 978d771 - -hard
+git checkout 978d771
+git reset HEAD^^
+git reset HEAD~2
+
+2.
+Git checkout cat
+Git merge dog
+
+3.
+Git reset ORIG_HEAD —hard
+Or
+用git log找到對應id，用git reset command回到之前的commit點
